@@ -1,0 +1,13 @@
+import random
+colors = ['red','green','blue']
+
+
+while True:
+   choice = input("Guess my favorite color, i bet you can't!")
+   fav_color = random.choice(colors)
+   if choice == fav_color:
+      print("WOW! I can't believe you got that right, you must be psychic!")
+      break
+   else:
+      print("haha, Nope it's", fav_color," I knew you would get it.")
+      print("On the bright side im feeling gernerous ill give you another shot.")
